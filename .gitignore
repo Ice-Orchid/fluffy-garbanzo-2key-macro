@@ -1,0 +1,22 @@
+# Build outputs and downloadable packages
+/build/
+/dist/
+/release/
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# Personal settings, device identity, backups and diagnostics
+**/data/
+*.log
+*.previous
+*.tmp
+
+# Local research, attachments and editor state
+/inspection/
+/.codex-remote-attachments/
+/.vs/
+.env
+.env.*
+!.env.example
